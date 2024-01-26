@@ -1,9 +1,14 @@
 import "./App.css";
+import Feed from "./Components/Feed";
+import Rightbar from "./Components/Rightbar";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
+    <div>
+      <Sidebar />
+      <Feed />
+      <Rightbar />
     </div>
   );
 }
