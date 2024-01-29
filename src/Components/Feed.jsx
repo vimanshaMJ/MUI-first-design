@@ -1,9 +1,10 @@
+import { Box } from "@mui/material";
 import React from "react";
 
 export default function Feed() {
   return (
-    <div>
+    <Box bgcolor="skyblue" flex={1}>
       <h1>Feed</h1>
-    </div>
+    </Box>
   );
 }
