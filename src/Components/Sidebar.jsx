@@ -3,8 +3,13 @@ import React from "react";
 
 export default function Sidebar() {
   return (
-    <Box bgcolor="lightblue" flex={4}>
-      <h1>Sidebar</h1>
+    <Box
+      bgcolor="lightblue"
+      flex={4}
+      p={2}
+      sx={{ display: { xs: "none", sm: "block" } }}
+    >
+      Sidebar
     </Box>
   );
 }

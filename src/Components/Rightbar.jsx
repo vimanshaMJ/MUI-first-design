@@ -3,8 +3,13 @@ import React from "react";
 
 export default function Rightbar() {
   return (
-    <Box bgcolor="lightcoral" flex={2}>
-      <h1>Rightbar</h1>
+    <Box
+      bgcolor="lightcoral"
+      flex={2}
+      p={2}
+      sx={{ display: { xs: "none", sm: "block" } }}
+    >
+      Rightbar
     </Box>
   );
 }
